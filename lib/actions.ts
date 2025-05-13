@@ -5,7 +5,7 @@ import { prisma } from "@/lib/prisma";
 import { redirect } from "next/navigation";
 // import { signIn } from "@/auth";
 // import { AuthError } from "next-auth";
-import AuthError from "next-auth";
+// import AuthError from "next-auth";
 
 export const signUpCredentials = async (
   prevState: unknown,
